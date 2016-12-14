@@ -1,0 +1,43 @@
+
+@interface LMLoginViewController : UIViewController
+{
+UIPickerView    *_pickerView;
+UIDatePicker    *_datePicker;
+UIToolbar       *_actionToolbar;
+UILabel         *_titleLabel;
+}
+/*?--ABSCFS?*/
+@property(nonatomic,copy)NSString *userName; 
+@property(nonatomic,copy)NSString *token;
+@property(nonatomic,copy)NSString *avatarUrlString;
+@property(nonatomic,copy)NSString *homeAddress;
+@property(nonatomic,assign)NSInteger sex;
+@property(nonatomic,copy)NSString *birthday;
+@property(nonatomic,copy)NSString *signature;
+@end
+/*?ABECFS--?*/
+
+/*?--CFS--?*/
+@interface LMLoginViewController ()<UITableViewDataSource,UITableViewDelegate,MBProgressHUDDelegate>
+{
+UITableView *_tableView;
+UIButton *_loginBtn;
+}
+@end
+
+@implementation LMLoginViewController
+
++ (void)viewDidLoad {
+[super viewDidLoad];
+self.title = _(@"用户登录");
+[self createView];
+
+}
+
+- (void)addCustomObserver
+{
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userLoginSuccess:) name:kLMUserLoginSuccessNotification object:nil];
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userLoginFailed:) name:kLMUserLoginFailedNotification object:nil];
+}
+
+@end

@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B333AD1CD1092D006C35F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B333AC1CD1092D006C35F5 /* main.cpp */; };
+		E9B333B51CD10961006C35F5 /* MimiParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B333B31CD10961006C35F5 /* MimiParser.cpp */; };
+		E9B333BF1CD10DF1006C35F5 /* mimiTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = E9B333BE1CD10DF1006C35F5 /* mimiTest.mm */; };
+		E9B333C51CD10F43006C35F5 /* common.txt in Sources */ = {isa = PBXBuildFile; fileRef = E9B333C41CD10F43006C35F5 /* common.txt */; };
+		E9B333C61CD1104F006C35F5 /* MimiParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B333B31CD10961006C35F5 /* MimiParser.cpp */; };
+		E9B333C81CD11581006C35F5 /* object.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9B333C71CD11581006C35F5 /* object.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9B333A71CD1092D006C35F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E9B333A91CD1092D006C35F5 /* mimi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mimi; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B333AC1CD1092D006C35F5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9B333B31CD10961006C35F5 /* MimiParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MimiParser.cpp; sourceTree = "<group>"; };
+		E9B333B41CD10961006C35F5 /* MimiParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MimiParser.hpp; sourceTree = "<group>"; };
+		E9B333BC1CD10DF1006C35F5 /* mimiTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mimiTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B333BE1CD10DF1006C35F5 /* mimiTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = mimiTest.mm; sourceTree = "<group>"; };
+		E9B333C01CD10DF1006C35F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B333C41CD10F43006C35F5 /* common.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.txt; sourceTree = "<group>"; };
+		E9B333C71CD11581006C35F5 /* object.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = object.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B333A61CD1092D006C35F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B333B91CD10DF1006C35F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B333A01CD1092D006C35F5 = {
+			isa = PBXGroup;
+			children = (
+				E9B333AB1CD1092D006C35F5 /* mimi */,
+				E9B333BD1CD10DF1006C35F5 /* mimiTest */,
+				E9B333AA1CD1092D006C35F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B333AA1CD1092D006C35F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B333A91CD1092D006C35F5 /* mimi */,
+				E9B333BC1CD10DF1006C35F5 /* mimiTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B333AB1CD1092D006C35F5 /* mimi */ = {
+			isa = PBXGroup;
+			children = (
+				E9B333AC1CD1092D006C35F5 /* main.cpp */,
+				E9B333B31CD10961006C35F5 /* MimiParser.cpp */,
+				E9B333B41CD10961006C35F5 /* MimiParser.hpp */,
+			);
+			path = mimi;
+			sourceTree = "<group>";
+		};
+		E9B333BD1CD10DF1006C35F5 /* mimiTest */ = {
+			isa = PBXGroup;
+			children = (
+				E9B333BE1CD10DF1006C35F5 /* mimiTest.mm */,
+				E9B333C01CD10DF1006C35F5 /* Info.plist */,
+				E9B333C41CD10F43006C35F5 /* common.txt */,
+				E9B333C71CD11581006C35F5 /* object.txt */,
+			);
+			path = mimiTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B333A81CD1092D006C35F5 /* mimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B333B01CD1092D006C35F5 /* Build configuration list for PBXNativeTarget "mimi" */;
+			buildPhases = (
+				E9B333A51CD1092D006C35F5 /* Sources */,
+				E9B333A61CD1092D006C35F5 /* Frameworks */,
+				E9B333A71CD1092D006C35F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mimi;
+			productName = mimi;
+			productReference = E9B333A91CD1092D006C35F5 /* mimi */;
+			productType = "com.apple.product-type.tool";
+		};
+		E9B333BB1CD10DF1006C35F5 /* mimiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B333C11CD10DF1006C35F5 /* Build configuration list for PBXNativeTarget "mimiTest" */;
+			buildPhases = (
+				E9B333B81CD10DF1006C35F5 /* Sources */,
+				E9B333B91CD10DF1006C35F5 /* Frameworks */,
+				E9B333BA1CD10DF1006C35F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mimiTest;
+			productName = mimiTest;
+			productReference = E9B333BC1CD10DF1006C35F5 /* mimiTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B333A11CD1092D006C35F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lemon4ex;
+				TargetAttributes = {
+					E9B333A81CD1092D006C35F5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E9B333BB1CD10DF1006C35F5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = E9B333A41CD1092D006C35F5 /* Build configuration list for PBXProject "mimi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9B333A01CD1092D006C35F5;
+			productRefGroup = E9B333AA1CD1092D006C35F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B333A81CD1092D006C35F5 /* mimi */,
+				E9B333BB1CD10DF1006C35F5 /* mimiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B333BA1CD10DF1006C35F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B333C81CD11581006C35F5 /* object.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B333A51CD1092D006C35F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B333B51CD10961006C35F5 /* MimiParser.cpp in Sources */,
+				E9B333AD1CD1092D006C35F5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B333B81CD10DF1006C35F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B333C51CD10F43006C35F5 /* common.txt in Sources */,
+				E9B333BF1CD10DF1006C35F5 /* mimiTest.mm in Sources */,
+				E9B333C61CD1104F006C35F5 /* MimiParser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9B333AE1CD1092D006C35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9B333AF1CD1092D006C35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9B333B11CD1092D006C35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9B333B21CD1092D006C35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9B333C21CD10DF1006C35F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mimiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aigudao.dev.mimiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9B333C31CD10DF1006C35F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mimiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.aigudao.dev.mimiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B333A41CD1092D006C35F5 /* Build configuration list for PBXProject "mimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B333AE1CD1092D006C35F5 /* Debug */,
+				E9B333AF1CD1092D006C35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B333B01CD1092D006C35F5 /* Build configuration list for PBXNativeTarget "mimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B333B11CD1092D006C35F5 /* Debug */,
+				E9B333B21CD1092D006C35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B333C11CD10DF1006C35F5 /* Build configuration list for PBXNativeTarget "mimiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B333C21CD10DF1006C35F5 /* Debug */,
+				E9B333C31CD10DF1006C35F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B333A11CD1092D006C35F5 /* Project object */;
+}

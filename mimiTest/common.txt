@@ -1,0 +1,41 @@
+//
+//  preprocessorFile.m
+//  mimi
+//
+//  Created by lemon4ex on 16/4/27.
+//  Copyright © 2016年 lemon4ex. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import "LMInitPasswordViewController.h"
+#import "KeyChain.h"
+#include "ConstMacro.h"
+
+#define AAAAAATEST BBBBBB
+
+#define INIT while {\
+printf("aaaaaa");\
+}\
+\
+\
+\
+
+#ifdef TEST
+{
+    
+}
+#elif
+
+#endif
+
+\
+\\
+\\\
+
+/*
+ {
+ #abcedddddd
+ }
+ 
+ */
